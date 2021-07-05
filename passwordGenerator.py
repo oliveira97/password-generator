@@ -8,6 +8,6 @@ symbol = '#@!%$&*?'
 
 caracteres = lower + upper + numbers + symbol
 # Em length determinamos a quantia de caracteres da senha
-length = 10
+length = 12
 password = ''.join(random.sample(caracteres, length))
 print('Sua senha será: {}'.format(password))
